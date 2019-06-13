@@ -1,0 +1,342 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	font-style: normal;
+}
+.logo{
+	margin: 20px;
+	margin-left: 12%;
+}
+.first-content-block{
+	position: relative;
+	margin: 0 auto;
+	max-width: 1440px;
+	height: 848px;
+	background-size: cover;
+	background-image: url(../img/bg.png); 
+}
+.image{
+	position: absolute;
+}
+.boxShadow{
+	box-shadow: 0px 4px 50px rgba(31, 13, 76, 0.7);
+}
+.image.free{
+	width: 225.5px;
+	height: 225.5px;
+	left: 80%;
+	top: 44%;
+}
+.image.ellipse{
+	width: 128px;
+	height: 128px;
+	left: 75%;
+	top: 15%;
+}
+.image.div{
+	left: 76.5%;
+	top: 20%;
+}
+.image.str{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7FF0FF;
+
+	transform: rotate(-15deg);
+}
+.image.burg{
+	width: 184px;
+	height: 184px;
+	left: 38%;
+	top: 3%;
+}
+.image.pizza{
+	width: 177.5px;
+	height: 177.5px;
+	left: 38%;
+	top: 75%;
+}
+.image.cake{
+	width: 208px;
+	height: 208px;
+	left: 1%;
+	top: 54%;
+}
+.image.money{
+	width: 542.5px;
+	height: 620px;
+	left: 10%;
+	top: 10%;
+}
+.content-inner{
+	width: 450px;
+	position: absolute;
+	left: 46%;
+	top: 20%;
+	text-align: center;
+	z-index: 3;
+}
+.content-inner h1{
+	font-weight: 800;
+	font-size: 56px;
+	line-height: 64px;
+	color: white;
+}
+.content-inner .content-inner-str{
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 36px;
+	color: white;
+}
+.content-inner .content-inner-data{
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	color: white;
+}
+button.buttonContent{
+	width: 270px;
+	height: 72px;
+	margin-top: 30px;
+	background: linear-gradient(180deg, #6039FF 0%, #3A19C0 100%);
+	border-radius: 50px;
+	border: 0;
+
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 72px;
+	color: white;
+	transition: 1s;
+}
+button.buttonContent:hover{
+	font-size: 18px;
+	line-height: 70px;
+	color: #FEC9C9;
+	background: linear-gradient(180deg, #6039FF 0%, #3A19C0 20%);
+}
+.places{
+	margin-top: 15px;
+	color: white;
+}
+.aPlace{
+	display: inline-block;
+}
+.place{
+	font-size: 18px;
+	line-height: 36px;
+}
+.places .aPlace:not(:first-child){
+	margin-left: 10px;
+}
+.aPlace span{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 36px;
+	color: #7FF0FF;
+}
+.contentA.enter{
+
+}
+.contentA{
+	position: absolute;
+}
+.contentA.morePrizes{
+	left: 10%;
+	top: 85%;
+}
+.contentA.agree{
+	left: 71%;
+	top: 85%;
+}
+.contentA.enter{
+	left: 71%;
+	top: 3%;
+}
+.contentA a{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: white;
+	transition: 1s;
+}
+.contentA a:hover{
+	color: #F94A4A;
+}
+.second-content-block{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -6%;
+	padding-top: 140px;
+	max-width: 1440px;
+	height: 924px;
+	background-size: cover;
+	background-image: url(../img/bg2.png); 
+	box-shadow: 0px 4px 50px rgba(31, 13, 76, 0.7);
+}
+.second-content-block h2{
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 64px;
+	color: white;
+}
+p.mainPrice{
+	color: white;
+	font-weight: 800;
+	font-size: 65px;
+	margin-bottom: 18px;
+}
+p.mainPrice span{
+	color: #5AEE6B;
+}
+p.easy{
+	font-size: 24px;
+	line-height: 32px;
+	color: white;
+}
+.grid{
+	margin: 5%;	
+	margin-top:56px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: "blockOne blockTwo blockThree" 
+}
+.gridPrise{
+	margin: 5%;	
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: "blockFour blockFive"
+}
+.grid div, .gridPrise div{
+	background: rgba(100, 116, 255, 0.43);
+	border-radius: 6px;
+}
+.blockOne{
+	grid-area: blockOne;
+}
+.blockTwo{
+	grid-area: blockTwo;
+}
+.blockThree{
+	grid-area: blockThree;
+}
+.blockFour{
+	grid-area: blockFour;
+}
+.blockFive{
+	grid-area: blockFive;
+}
+.grid div img{
+	padding: 10px;	
+	float: left;
+}
+.grid div p{
+	padding-top: 5%;
+	font-size: 24px;
+	line-height: 32px;
+	color: #71FF1B;
+}
+.gridPrise span.spanBlockFour{
+	font-weight: 800;
+	font-size: 120px;
+	line-height: 120px;
+	padding: 30px;
+	float: left;
+	color: #71FF1B;
+}
+.gridPrise span.spanBlockFive{
+	padding: 6%;
+	float: left;
+	font-weight: 800;
+	font-size: 96px;
+	line-height: 60px;
+	color: #71FF1B;
+}
+span.spanBlockFive span.may{
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 36px;
+}
+.gridPrise p{
+	padding-top: 12%;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: white;
+}
+
+@media screen and (max-width: 1400px) {
+	.second-content-block{
+		margin-top: -10%;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.content-inner{
+		left: 36%;
+		top: 20%;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.second-content-block{
+		margin-top: -20%;
+	}
+	.image{
+		display: none;
+	}
+	.content-inner{
+		padding-top: 40px;
+		margin: 0 auto;
+		display: block;
+		position: static;
+	}
+	.contentA a{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.contentA.agree{
+		left: 60%;
+
+	}
+}
+@media screen and (max-width: 760px){
+	.grid{
+	grid-template-columns: 1fr;
+	grid-template-areas: "blockOne"
+	 					 "blockTwo"
+	     				 "blockThree" 
+	}
+	.gridPrise{
+	grid-template-columns: 1fr;
+	grid-template-areas: "blockFour"
+						 "blockFive"
+	}
+	.gridPrise span.spanBlockFour{
+	line-height: 70px;
+	font-size: 40px;
+	float: left;
+	}
+	.gridPrise span.spanBlockFive{
+	font-size: 30px;
+	line-height: 30px;
+	color: #71FF1B;
+	}
+	span.spanBlockFive span.may{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 12px;
+	}
+	.gridPrise p{
+	padding-top: 10%;
+	font-size: 20px;
+	line-height: 12px;
+	}
+}
